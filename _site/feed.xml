@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Classy</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2015-12-04T13:03:21-05:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="/classy/feed.xml" />
+<link rel="alternate" type="text/html" href="/classy" />
+<updated>2015-12-04T13:07:20-05:00</updated>
+<id>/classy/</id>
 <author>
   <name>Paul Walczak</name>
-  <uri>/</uri>
+  <uri>/classy/</uri>
   
 </author>
 
@@ -17,14 +17,14 @@
 
 <entry>
   <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
-  <link rel="alternate" type="text/html" href="/susa/" />
-  <id>/susa</id>
+  <link rel="alternate" type="text/html" href="/classy/susa/" />
+  <id>/classy/susa</id>
   <updated>2014-09-14T00:00:00-00:00</updated>
   <published>2015-12-01T00:00:00-05:00</published>
   
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -162,7 +162,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/susa/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on December 01, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/susa/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on December 01, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -171,14 +171,14 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Export.gov Specific Styles]]></title>
-  <link rel="alternate" type="text/html" href="/export-gov/" />
-  <id>/export-gov</id>
+  <link rel="alternate" type="text/html" href="/classy/export-gov/" />
+  <id>/classy/export-gov</id>
   <updated>2015-12-03T00:00:00-00:00</updated>
   <published>2015-12-01T00:00:00-05:00</published>
   
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -211,7 +211,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;egDefaultBtn&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Search&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/export-gov/&quot;&gt;Export.gov Specific Styles&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on December 01, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/export-gov/&quot;&gt;Export.gov Specific Styles&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on December 01, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -220,13 +220,13 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Author Override]]></title>
-  <link rel="alternate" type="text/html" href="/author-override/" />
-  <id>/author-override</id>
+  <link rel="alternate" type="text/html" href="/classy/author-override/" />
+  <id>/classy/author-override</id>
   <published>2014-07-31T00:00:00-04:00</published>
   <updated>2014-07-31T00:00:00-04:00</updated>
   <author>
     <name>Billy Rick</name>
-    <uri></uri>
+    <uri>/classy</uri>
     <email>billy@rick.com</email>
   </author>
   <content type="html">
@@ -262,7 +262,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;billy_rick&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/author-override/&quot;&gt;Author Override&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on July 31, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/author-override/&quot;&gt;Author Override&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on July 31, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -271,14 +271,14 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
-  <link rel="alternate" type="text/html" href="/code-highlighting-post/" />
-  <id>/code-highlighting-post</id>
+  <link rel="alternate" type="text/html" href="/classy/code-highlighting-post/" />
+  <id>/classy/code-highlighting-post</id>
   <updated>2014-09-14T00:00:00-00:00</updated>
   <published>2013-08-16T00:00:00-04:00</published>
   
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -416,7 +416,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -425,13 +425,13 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Sample Link Post]]></title>
-  <link rel="alternate" type="text/html" href="/sample-link-post/" />
-  <id>/sample-link-post</id>
+  <link rel="alternate" type="text/html" href="/classy/sample-link-post/" />
+  <id>/classy/sample-link-post</id>
   <published>2013-08-12T00:00:00-04:00</published>
   <updated>2013-08-12T00:00:00-04:00</updated>
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -443,7 +443,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 &lt;p&gt;Some &lt;a href=&quot;http://www.mademistakes.com&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -452,13 +452,13 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
-  <link rel="alternate" type="text/html" href="/readability-feature-post/" />
-  <id>/readability-feature-post</id>
+  <link rel="alternate" type="text/html" href="/classy/readability-feature-post/" />
+  <id>/classy/readability-feature-post</id>
   <published>2013-05-23T00:00:00-04:00</published>
   <updated>2013-05-23T00:00:00-04:00</updated>
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -511,7 +511,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -520,13 +520,13 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[A Post with Images]]></title>
-  <link rel="alternate" type="text/html" href="/sample-post-images/" />
-  <id>/sample-post-images</id>
+  <link rel="alternate" type="text/html" href="/classy/sample-post-images/" />
+  <id>/classy/sample-post-images</id>
   <published>2013-05-22T00:00:00-04:00</published>
   <updated>2013-05-22T00:00:00-04:00</updated>
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -581,7 +581,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -590,13 +590,13 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
-  <link rel="alternate" type="text/html" href="/readability-post/" />
-  <id>/readability-post</id>
+  <link rel="alternate" type="text/html" href="/classy/readability-post/" />
+  <id>/classy/readability-post</id>
   <published>2012-05-22T00:00:00-04:00</published>
   <updated>2012-05-22T00:00:00-04:00</updated>
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -641,7 +641,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on May 22, 2012.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on May 22, 2012.&lt;/p&gt;
   </content>
 </entry>
 
@@ -650,14 +650,14 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 <entry>
   <title type="html"><![CDATA[Sample Post]]></title>
-  <link rel="alternate" type="text/html" href="/sample-post/" />
-  <id>/sample-post</id>
+  <link rel="alternate" type="text/html" href="/classy/sample-post/" />
+  <id>/classy/sample-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
   <published>2011-03-10T00:00:00-05:00</published>
   
   <author>
     <name>Paul Walczak</name>
-    <uri></uri>
+    <uri>/classy</uri>
     
   </author>
   <content type="html">
@@ -721,7 +721,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;/classy/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
@@ -823,7 +823,7 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
 
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;&quot;&gt;Classy&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/classy/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Paul Walczak at &lt;a href=&quot;/classy&quot;&gt;Classy&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
   </content>
 </entry>
 
