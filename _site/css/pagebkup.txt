@@ -1,0 +1,197 @@
+<apex:page standardcontroller="Page__c" showHeader="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false" extensions="Page_Section_Controller">
+<apex:composition template="Site_Template">
+    <apex:define name="sectionalNav">
+        <apex:outputPanel rendered="{!section != null}">
+          <div class="subheader">
+            <div class="containerITA">
+               <div class="row">
+                   <nav id="subnav">  
+            <h4 id="sectionName">{!section.name}</h4>
+            <apex:repeat value="{!section.navigation_links__r}" var="link">
+                 <a href="{!if(link.Redirect__c != '', link.Redirect__c, '/apex/page?id='+link.Page__c)}"> {!upper(link.name)} </a>
+            </apex:repeat>
+                    </nav>
+                </div>
+              </div>
+            </div>  
+        </apex:outputPanel>
+    </apex:define>
+    <apex:define name="page">
+    
+        <apex:outputtext rendered="{!if(Page__c.recordtype.name = 'Generic Page', true, false)}"><div class="containerITA itaBr"><h2>{!Page__c.name}</h2></div></apex:outputtext>
+        <div class="containerITA"><apex:repeat value="{!Page__c.page_contents__r}" var="pc" rendered="{!if(or(Page__c.recordtype.name = '', Page__c.recordtype.name = 'Generic Page'), true, false)}">
+        <div class="{!pc.content_container__r.Class_Name__c}">
+            <apex:outputtext escape="false" value="{!pc.content__r.Content__c}" />
+        </div>
+        </apex:repeat> 
+        </div> 
+        <apex:outputPanel rendered="{!Page__c.recordtype.name = 'Generic Landing Page'}">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <apex:repeat value="{!carouselMap}" var="slide">
+                        <li data-target="#carousel" data-slide-to="{!slide}" class="{!if(slide = 0, 'active', '')}"/>
+                    </apex:repeat>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <apex:repeat value="{!carouselMap}" var="slide">
+                    <div class="item {!if(slide = 0, 'active', '')}">
+                        <img src="{!urlFor($Resource.Carousel, carouselMap[slide].image__r.location__c)}" alt="{!carouselMap[slide].image__r.alt__c}" />
+                        <div class="carousel-caption{!if(carouselMap[slide].image__r.carousel_class__c = null, '', ' '+carouselMap[slide].image__r.carousel_class__c) }">
+                            <h3>{!carouselMap[slide].header__c}</h3>
+                            <p>{!carouselMap[slide].description__c}</p>
+                            <p><a href="{!carouselMap[slide].button_path__c}">{!carouselMap[slide].button_text__c}</a></p>
+                        </div>
+                    </div>
+                    </apex:repeat>
+                </div>
+            </div>
+        <div class="section gray-bg">
+          <div class="containerITA itaBr">
+            <div class="col-md-12" id="primaryContent">
+                <h1 class="text-center title">{!page.content__r.name}</h1>
+                <div class="separator"></div>
+                <p class="text-center"><apex:outputText escape="false" value="{!page.content__r.Content__c}" /></p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+                           <i class="fa fa-users"></i>
+                           <h2>Communities</h2>
+                            <p>{!CollaborationText}</p>
+                            <a value="Connect" href="/apex/group" class="susaBtn">Collaborate</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                   <div class="box-style-1 white-bg object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+                           <i class="fa fa-laptop"></i>
+                            <h2>Assistance</h2>
+                            <p>{!AssistanceText}</p>
+                            <a value="Connect" href="/apex/assistance" class="susaBtn">Engage</a>
+                    </div>
+               </div>     
+             </div>
+            <div class="col-md-12" id="secondaryContent">
+                <h3>{!page.secondary_content__r.name}</h3>
+                <apex:outputText escape="false" value="{!page.secondary_content__r.Content__c}" />
+                <a value="Connect" href="{!Page__c.secondary_content_link__c}">{!Page__c.Secondary_Content_Link_Text__c}</a>
+            </div>
+            <div class="col-md-12" id="tertiaryContent">
+                <h3>{!Page__c.Tertiary_content__r.name}</h3>
+                <apex:outputText escape="false" value="{!Page__c.Tertiary_Content__r.Content__c}" />
+            </div>
+          </div>
+        </div>    
+        </apex:outputPanel>  
+        <apex:outputPanel rendered="{!Page__c.recordtype.name = 'EDO Landing Page'}">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <apex:repeat value="{!carouselMap}" var="slide">
+                        <li data-target="#carousel" data-slide-to="{!slide}" class="{!if(slide = 0, 'active', '')}"/>
+                    </apex:repeat>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <apex:repeat value="{!carouselMap}" var="slide">
+                    <div class="item {!if(slide = 0, 'active', '')}">
+                        <img src="{!urlFor($Resource.Carousel, carouselMap[slide].image__r.location__c)}" alt="{!carouselMap[slide].image__r.alt__c}" />
+                        <div class="carousel-caption{!if(carouselMap[slide].image__r.carousel_class__c = null, '', ' '+carouselMap[slide].image__r.carousel_class__c) }">
+                            <h3>{!carouselMap[slide].header__c}</h3>
+                            <p>{!carouselMap[slide].description__c}</p>
+                            <p><a href="{!carouselMap[slide].button_path__c}">{!carouselMap[slide].button_text__c}</a></p>
+                        </div>
+                    </div>
+                    </apex:repeat>
+                </div>
+            </div>
+           <div class="containerITA">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="/apex/group{!CollaborationGroup}">Collaborate</a>
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">Services</a>
+                    <i class="fa fa-cogs"></i>
+                </div>
+                <div class="col-md-4">
+                    <a href="/apex/assistance">Asistance</a>
+                    <i class="fa fa-laptop"></i>
+                </div>
+            </div>
+            <div class="col-md-12" id="primaryContent">
+                <h3>{!page.content__r.name}</h3>
+                <apex:outputText escape="false" value="{!page.content__r.Content__c}" />
+            </div>
+            <div class="row">
+                <div class="col-md-8" id="secondaryContent">
+                    <h3>{!page.secondary_content__r.name}</h3>
+                    <apex:outputText escape="false" value="{!page.secondary_content__r.Content__c}" />            
+                </div>
+                <div class="col-md-4" id="chatterWidget">
+                    <h3>Chatter</h3>
+                    <p>Chatter for Pages widget is under development.</p>
+                </div>
+            </div>
+            <div class="col-md-12" id="tertiaryContent">
+                <h3>{!Page__c.Tertiary_content__r.name}</h3>
+                <apex:outputText escape="false" value="{!Page__c.Tertiary_Content__r.Content__c}" />
+            </div>
+           </div> 
+        </apex:outputpanel>
+        <apex:outputPanel rendered="{!Page__c.recordtype.name = 'Industry Landing Page'}">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <apex:repeat value="{!carouselMap}" var="slide">
+                        <li data-target="#carousel" data-slide-to="{!slide}" class="{!if(slide = 0, 'active', '')}"/>
+                    </apex:repeat>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <apex:repeat value="{!carouselMap}" var="slide">
+                    <div class="item {!if(slide = 0, 'active', '')}">
+                        <img src="{!urlFor($Resource.Carousel, carouselMap[slide].image__r.location__c)}" alt="{!carouselMap[slide].image__r.alt__c}" />
+                        <div class="carousel-caption{!if(carouselMap[slide].image__r.carousel_class__c = null, '', ' '+carouselMap[slide].image__r.carousel_class__c) }">
+                            <h3>{!carouselMap[slide].header__c}</h3>
+                            <p>{!carouselMap[slide].description__c}</p>
+                            <p><a href="{!carouselMap[slide].button_path__c}">{!carouselMap[slide].button_text__c}</a></p>
+                        </div>
+                    </div>
+                    </apex:repeat>
+                </div>
+            </div>
+           <div class="containerITA"> 
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="/apex/group{!CollaborationGroup}">Collaborate</a>
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">Services</a>
+                    <i class="fa fa-cogs"></i>
+                </div>
+                <div class="col-md-4">
+                    <a href="/apex/assistance">Asistance</a>
+                    <i class="fa fa-laptop"></i>
+                </div>
+            </div>
+            <div class="col-md-12" id="primaryContent">
+                <h3>{!page.content__r.name}</h3>
+                <apex:outputText escape="false" value="{!page.content__r.Content__c}" />
+            </div>
+            <div class="row">
+                <div class="col-md-8" id="secondaryContent">
+                    <h3>{!page.secondary_content__r.name}</h3>
+                    <apex:outputText escape="false" value="{!page.secondary_content__r.Content__c}" />            
+                </div>
+                <div class="col-md-4" id="chatterWidget">
+                    <h3>Chatter</h3>
+                    <p>Chatter for Pages widget is under development.</p>
+                </div>
+            </div>
+            <div class="col-md-12" id="tertiaryContent">
+                <h3>{!Page__c.Tertiary_content__r.name}</h3>
+                <apex:outputText escape="false" value="{!Page__c.Tertiary_Content__r.Content__c}" />
+            </div>
+           </div> 
+        </apex:outputpanel>
+    </apex:define>
+</apex:composition>
+</apex:page>
