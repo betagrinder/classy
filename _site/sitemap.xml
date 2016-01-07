@@ -1,51 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/classy/susa/</loc>
+    <loc>/susa/</loc>
     <lastmod>2015-12-01T00:00:00-05:00</lastmod>
   </url>
   <url>
-    <loc>/classy/export-gov/</loc>
+    <loc>/export-gov/</loc>
     <lastmod>2015-12-01T00:00:00-05:00</lastmod>
   </url>
   <url>
-    <loc>/classy/author-override/</loc>
+    <loc>/author-override/</loc>
     <lastmod>2014-07-31T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>/classy/code-highlighting-post/</loc>
+    <loc>/code-highlighting-post/</loc>
     <lastmod>2013-08-16T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>/classy/sample-link-post/</loc>
+    <loc>/sample-link-post/</loc>
     <lastmod>2013-08-12T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>/classy/readability-feature-post/</loc>
+    <loc>/readability-feature-post/</loc>
     <lastmod>2013-05-23T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>/classy/sample-post-images/</loc>
+    <loc>/sample-post-images/</loc>
     <lastmod>2013-05-22T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>/classy/readability-post/</loc>
+    <loc>/readability-post/</loc>
     <lastmod>2012-05-22T00:00:00-04:00</lastmod>
   </url>
   <url>
-    <loc>/classy/sample-post/</loc>
+    <loc>/sample-post/</loc>
     <lastmod>2011-03-10T00:00:00-05:00</lastmod>
   </url>
   <url>
-    <loc>/classy/about/</loc>
+    <loc>/about/</loc>
   </url>
   <url>
-    <loc>/classy/theme-setup/</loc>
+    <loc>/theme-setup/</loc>
   </url>
   <url>
-    <loc>/classy/posts/</loc>
+    <loc>/posts/</loc>
   </url>
   <url>
-    <loc>/classy/</loc>
+    <loc>/</loc>
+  </url>
+  <url>
+    <loc>/csstrick.html</loc>
+    <lastmod>2015-12-04T18:13:20-05:00</lastmod>
+  </url>
+  <url>
+    <loc>/svg.html</loc>
+    <lastmod>2015-12-09T12:17:25-05:00</lastmod>
   </url>
 </urlset>

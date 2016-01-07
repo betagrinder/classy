@@ -1,9 +1,24 @@
 <div class="navigation-wrapper">
-	<div class="site-name">
-		<a href="{{ site.url }}/">{{ site.title }}</a>
+	<div class="site-name"><style type="text/css">@font-face {font-family: classyFont;src: url({{ site.url }}/CANDY.TTF);} </style>
+
+<svg version="1.1" id="layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 345.8 300"  xml:space="default">
+<g id="bubbles">
+	<g>
+		<path fill="#ffffff" stroke-width="6" stroke="#0F9BD7" style="position:relative; z-index:2" d="M145.2,33.4c10.7-11.1,25.5-18,42-18c21.9,0,40.9,12.2,51.1,30.3c8.8-3.9,18.6-6.1,28.9-6.1
+			c39.4,0,71.4,32.2,71.4,72c0,39.8-32,72-71.4,72c-4.8,0-9.5-0.5-14.1-1.4c-8.9,15.9-26,26.7-45.5,26.7c-8.2,0-15.9-1.9-22.8-5.3
+			c-9.1,21.3-30.2,36.3-54.8,36.3c-25.6,0-47.5-16.2-55.9-39c-3.7,0.8-7.5,1.2-11.4,1.2c-30.5,0-55.3-25-55.3-55.8
+			c0-20.7,11.1-38.7,27.6-48.4c-3.4-7.8-5.3-16.5-5.3-25.5c0-35.5,28.8-64.2,64.3-64.2C114.9,8.1,133.4,18,145.2,33.4"/>
+		
+	</g>
+</g>
+</svg>
+<!-- img src="images/sflogo.svg" style="position:relative; top:6px; left:-140px; z-index:2" -->
+		<div class="classyTitle"><a href="{{ site.url }}/">{{ site.title }}</a></div>
+		<div class="classySlogan">ITA's Style Guide</div>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
-		<nav role="navigation" id="site-nav" class="nav">
+		<nav role="navigation" id="site-nav" class="nav classyNav">
 		    <ul>
 		        {% for link in site.data.navigation %}
 				    {% if link.url contains 'http' %}
